@@ -18,24 +18,34 @@ A continuación, detallo los comandos que usé para completar la actividad, con 
    ```bash
    git init
 ![Captura](capturas/repo_ini1.png)
+
+
 2. **Commits y staging**:
 git commit -m "Primer commit: README inicial"
 git log --oneline
 ![Captura](capturas/commit_sta2.png)
+
+
 3. **Alias**:
 git config --global alias.s "status"
 git s
 ![Captura](capturas/alias3.png)
+
+
 4. **Git mv, rm, reset**:
 git mv README.md LEEME.md
 git rm prueba.txt
 git reset LEEME.md
 ![Captura](capturas/reset4.png)
+
+
 5. **.gitignore**:
 touch .gitignore
 git add .gitignore
 git commit -m "Añadido .gitignore"
 ![Captura](capturas/.gitignore5.png)
+
+
 6. **Ramas y merge**:
 git checkout -b nueva-funcionalidad
 git add feature.txt
@@ -43,14 +53,20 @@ git commit -m "Añadida nueva funcionalidad"
 git checkout main
 git merge nueva-funcionalidad
 ![Captura](capturas/ramas6.png)
+
+
 7. **Resolución de conflictos**:
 git add LEEME.md
 git commit -m "Resuelto conflicto de merge"
 ![Captura](capturas/conflictos7.png)
+
+
 8. **Git clone y pull**:
 git clone https://github.com/tu-usuario/mi-proyecto-git.git
 git pull origin main
 ![Captura](capturas/clone8.png)
+
+
 9. **Fork y Pull Request**:
 git checkout -b mi-rama
 git add archivo.txt
